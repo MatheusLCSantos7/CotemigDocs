@@ -1,0 +1,21 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int num1;
+		int num2;
+		int idade;
+		
+		Console.WriteLine("Estamos em qual ano?");
+		num1 = int.Parse(Console.ReadLine());
+		
+		Console.WriteLine("Qual seu ano de nascimento?");
+		num2 = int.Parse(Console.ReadLine());
+		
+		idade = num1 - num2;
+		
+		Console.WriteLine("A sua idade é: " + idade);
+	}
+}
